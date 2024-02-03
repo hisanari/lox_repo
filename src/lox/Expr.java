@@ -39,7 +39,7 @@ abstract class Expr {
   }
   static class Literal extends Expr {
     Literal(Object value) {
-      this.value =value;
+      this.value = value;
     }
 
     final Object value;
